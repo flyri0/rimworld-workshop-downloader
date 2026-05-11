@@ -12,7 +12,7 @@ jobs:
           - platform: 'linux'
             os: ubuntu-22.04
             target: x86_64-unknown-linux-gnu
-            bundle-targets: 'deb,rpm'
+            bundle-targets: 'deb,rpm,appimage'
           - platform: 'windows'
             os: windows-latest
             target: x86_64-pc-windows-msvc
